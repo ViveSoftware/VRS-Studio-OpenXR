@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ma_HandModel_Transparent
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _ALPHABLEND_ON _GLOSSYREFLECTIONS_OFF _SPECULARHIGHLIGHTS_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaText:
+        m_Texture: {fileID: 2800000, guid: f091b2d8b13613343a11db94d0bae84e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 8ff46f8bd87597043a1ff31f90b07ffb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: 10c0d88cd73dc064d9a5d82cd7073be3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 1250643187cd6e84f873b5efc80f049d, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 1250643187cd6e84f873b5efc80f049d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _colortest:
+        m_Texture: {fileID: 2800000, guid: 8679ba998507e84449c7afa7904247ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _handTexture1:
+        m_Texture: {fileID: 2800000, guid: 8047db73a5a03f140bb721b7a9e74d92, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _handTexture2:
+        m_Texture: {fileID: 2800000, guid: a3048a0771d78ac43b781fae79dd3375, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _hand_sss:
+        m_Texture: {fileID: 2800000, guid: e77fd01fd7b5b024d8f0b55209cb2835, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _intersectionNoiseTex:
+        m_Texture: {fileID: 2800000, guid: a2dc72c9eee2e29469287fa574b6b4f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _opacityTex:
+        m_Texture: {fileID: 2800000, guid: 5cf47acf5a0cf8c42908137d12fad218, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tx_hand_1:
+        m_Texture: {fileID: 2800000, guid: 10c0d88cd73dc064d9a5d82cd7073be3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tx_hand_1234:
+        m_Texture: {fileID: 2800000, guid: cbfc16e685b591a4484393a98db247aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tx_hand_2:
+        m_Texture: {fileID: 2800000, guid: 285d927bfdd97dc4d89c156883a14943, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ASEOutlineWidth: 0
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 10
+    - _Float0: 0.0032
+    - _Float1: 1
+    - _Float2: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Gradient_Blur: 0
+    - _Gradient_level: 0
+    - _Metallic: 0
+    - _Mode: 2
+    - _NoiseTiling: 21.31
+    - _Noise_Scale: 26.15
+    - _OcclusionStrength: 1
+    - _Opacity: 0
+    - _OutlineThickness: 0
+    - _OutlineWidth: 0
+    - _Parallax: 0.02
+    - _RimFalloff: 5.5
+    - _RimPower: 2
+    - _RimScale: 1
+    - _RimStrength: 4.06
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 0
+    - _SrcBlend: 5
+    - _UVSec: 0
+    - _XrayOpacity: 0
+    - _Xray_opacity: 0.477
+    - _ZWrite: 0
+    - __dirty: 0
+    - _edgeNoiseScale: 5
+    - _fingerGlow_index: 0
+    - _fingerGlow_middle: 0
+    - _fingerGlow_pinky: 0
+    - _fingerGlow_ring: 0
+    - _fingerGlow_thumb: 0
+    - _glowamt: 0.483
+    - _handOpacity: 0.4
+    - _index_glowamt: 1
+    - _intersectionEdge: 0.0018
+    - _line_opacity: 0
+    - _middle_glowamt: 1
+    - _outlineWidth: 0
+    - _pinky_glowamt: 1
+    - _qqqqqqqqqqqq: 0.04
+    - _ring_glowamt: 1
+    - _thumb_glowamt: 1
+    - _waterDepth1: 0
+    - _waterFalloff1: 0
+    - _wristFade: 0.8
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Color0: {r: 0, g: 1, b: 0.71264243, a: 0}
+    - _Color1: {r: 1.6029793, g: 0.14267357, b: 0, a: 1}
+    - _Color2: {r: 0.3220897, g: 0.6838545, b: 0.7264151, a: 1}
+    - _Color3: {r: 0.25916696, g: 0.3919901, b: 0.49056602, a: 0}
+    - _Color4: {r: 1, g: 0.58431375, b: 0, a: 1}
+    - _Color5: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GraColorA: {r: 1, g: 1, b: 1, a: 0}
+    - _GraColorB: {r: 1.1848828, g: 1.123403, b: 1.123403, a: 0}
+    - _HandAOColor: {r: 0.07450978, g: 0.105882294, b: 0.14901954, a: 1}
+    - _HandBaseColor: {r: 0.16470581, g: 0.2117646, b: 0.28627446, a: 1}
+    - _RimColor: {r: 0.7137255, g: 0.7647059, b: 0.8392157, a: 1}
+    - _Vector0: {r: 10, g: 10, b: 0, a: 0}
+    - _fingerTipColor: {r: 0.03529412, g: 0.48627448, b: 0.85490197, a: 1}
+    - _intersectionColor: {r: 0.03529412, g: 0.48627448, b: 0.85490197, a: 1}

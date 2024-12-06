@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bo_R_Mat
+  m_Shader: {fileID: 4800000, guid: 7bb28ef032f11ca4eb8c122aa7fd5b69, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaWave_Blur: 4.6
+    - _AlphaWave_Blur1: 2.5
+    - _AlphaWave_Blur2: 2.5
+    - _AlphaWave_Speed: -0.2
+    - _AlphaWave_Speed1: -0.4
+    - _AlphaWave_Speed2: -0.4
+    - _AlphaWave_width: -1.2
+    - _AlphaWave_width1: -1
+    - _AlphaWave_width2: -1
+    - _Around_On: 0
+    - _Around_forceOn: 0
+    - _Blur2: 0.32
+    - _BumpScale: 1
+    - _Cut2: 0.5
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Distance: 0.5
+    - _DstBlend: 0
+    - _EdgeLength: 15
+    - _Float0: 0.17
+    - _Float2: 25
+    - _Float3: 15
+    - _Float84: 3
+    - _Float95: 3.95
+    - _Float97: 33
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Keyword0: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Opacity: 0.5
+    - _P: 0.37
+    - _Parallax: 0.02
+    - _Power: 40
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TessPhongStrength: 0.5
+    - _Tessellation: 50
+    - _UVSec: 0
+    - _WaveOff2: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    - _brightness2: 4.44
+    - _hitDistance: 0.3
+    - _waveSpeed: 0.3
+    m_Colors:
+    - _Boundary_Color: {r: 4.7593822, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0, g: 3.3568628, b: 8, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GridColor2: {r: 0.01960784, g: 0.02745098, b: 0.04705882, a: 0}
+    - _Hand_L_pos: {r: 0, g: 0, b: 0, a: 0}
+    - _Hand_R_pos: {r: 0, g: 0, b: 0, a: 0}
+    - _Hand_pos: {r: 0, g: 0, b: 0, a: 0}
+    - _TriWave_Color2: {r: 0, g: 0, b: 0.007843138, a: 0}
+    - _Vector1: {r: 0, g: 0, b: 0, a: 0}
+    - _WaveGrid_Color2: {r: 0.01960784, g: 0.1843137, b: 0.8039216, a: 0}
+    - _WaveUV: {r: 0.2, g: 3, b: 0, a: 0}

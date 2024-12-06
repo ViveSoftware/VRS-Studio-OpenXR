@@ -1,0 +1,726 @@
+{
+    "name": "VRSInputActions",
+    "maps": [
+        {
+            "name": "HMD",
+            "id": "9b0062ec-ea19-4e13-a84a-5a1ffbb155c4",
+            "actions": [
+                {
+                    "name": "hmdPosition",
+                    "type": "Value",
+                    "id": "fbf9a7a3-9b3b-4605-baf2-ca469787c620",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "hmdRotation",
+                    "type": "Value",
+                    "id": "a85129d9-1f5c-4309-b373-888e66a5195b",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "hmdTrackingState",
+                    "type": "Value",
+                    "id": "f82f15e9-4d95-4ded-8cbc-79df44fb2ba7",
+                    "expectedControlType": "Integer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "eyePose",
+                    "type": "PassThrough",
+                    "id": "4e82afbf-412e-4cc6-9ceb-8de3bbec4f39",
+                    "expectedControlType": "Pose",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a28f1666-c4cb-4d95-8562-ff87183d16e0",
+                    "path": "<XRHMD>/centerEyePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "hmdPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "92119d85-56e4-444c-9949-3c4d90d46903",
+                    "path": "<XRHMD>/centerEyeRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "hmdRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0411ca77-5a55-4021-8ff3-41fb21600779",
+                    "path": "<EyeGaze>/pose",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "eyePose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca87207e-399e-4941-b080-9a0eef685aca",
+                    "path": "<XRHMD>/trackingState",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "hmdTrackingState",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "LeftHand",
+            "id": "f722b176-e4aa-4d2c-a72f-1592d0d83022",
+            "actions": [
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "12b64349-4f8f-4127-843d-dd90a35e3ac7",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Select",
+                    "type": "Value",
+                    "id": "6744e12a-c5c7-4956-bc7d-5e341f3d2bff",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "Hold,Press",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SelectValue",
+                    "type": "Value",
+                    "id": "77cf9297-2d2c-4913-8267-b5641ee63723",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9a90900f-4082-426b-9a40-44fb1bb1604c",
+                    "path": "<XRHandDevice>{LeftHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "942fadfb-1e7e-4c1c-be7c-7296570cd3e7",
+                    "path": "<ViveHandInteraction>{LeftHand}/selectValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1ce96864-bfb6-4a6e-8877-001e57429e90",
+                    "path": "<ViveHandInteraction>{LeftHand}/selectValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectValue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RightHand",
+            "id": "08190d02-0ea9-47e7-80c5-f066d130221b",
+            "actions": [
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "09847d82-cd35-4484-810c-a932b4be8570",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Select",
+                    "type": "Value",
+                    "id": "d654323b-0177-464f-9fa8-f4b5b3bdc8c1",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "Hold,Press",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SelectValue",
+                    "type": "Value",
+                    "id": "79defc51-1bf9-44f9-b866-6cdc1e708cdf",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6f4cee3d-710f-4f99-8505-0bc417af32c6",
+                    "path": "<XRHandDevice>{RightHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1247da4a-3f85-42d3-808e-679663dae685",
+                    "path": "<ViveHandInteraction>{RightHand}/selectValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a9a926a9-d296-473c-8eb4-e4a8170b356c",
+                    "path": "<ViveHandInteraction>{RightHand}/selectValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectValue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "LeftController",
+            "id": "1d594793-d2c1-4f1e-bfb1-0656f1c63415",
+            "actions": [
+                {
+                    "name": "Trigger",
+                    "type": "Value",
+                    "id": "afe434a9-0a01-4429-a177-be47329caf43",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PrimaryButton",
+                    "type": "Button",
+                    "id": "5a9c4a63-b449-4637-89e6-1fd8ae2f909a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SecondaryButton",
+                    "type": "Button",
+                    "id": "6b552d2e-4918-4482-8114-cb4e537b6f2e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Primary2DAxis",
+                    "type": "Value",
+                    "id": "5c5df9af-0848-4c13-9bf6-57c769676d74",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Grip",
+                    "type": "Value",
+                    "id": "61846582-8d86-4a88-94aa-846c977c7dfc",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Aim Pose",
+                    "type": "PassThrough",
+                    "id": "620a1160-65b0-40e1-b0ae-2250a7c172e9",
+                    "expectedControlType": "Pose",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6a090788-029f-4acc-82ff-306f3e02f8ee",
+                    "path": "<XRController>{LeftHand}/{trigger}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f7c94241-0d67-467e-a8e7-7a316f4a8a93",
+                    "path": "<XRController>{LeftHand}/{primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Primary2DAxis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "58df41fa-8492-475c-ad1b-8e389f222be9",
+                    "path": "<XRController>{LeftHand}/{grip}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8c489716-92e6-4cd8-aa01-95e23ba851d3",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SecondaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dd55440b-c5d2-495b-aa75-678d6d43e56f",
+                    "path": "<XRController>{LeftHand}/{primaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0989c43b-547f-4d46-a6f4-e9d3112066bb",
+                    "path": "<XRController>{LeftHand}/pointer",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim Pose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RightController",
+            "id": "7f968081-4e5b-4c96-8c0b-5ef6745b7c22",
+            "actions": [
+                {
+                    "name": "Trigger",
+                    "type": "Value",
+                    "id": "cad86651-a65a-40f4-af2c-cc5719980319",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PrimaryButton",
+                    "type": "Button",
+                    "id": "da24ad5a-6919-46e5-ba64-b322665bcb17",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SecondaryButton",
+                    "type": "Button",
+                    "id": "63e74809-1783-4dac-beb3-5055a9ae01ae",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Primary2DAxis",
+                    "type": "Value",
+                    "id": "13277cb6-75ef-47a4-b8d4-c881bd7674ca",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Grip",
+                    "type": "Value",
+                    "id": "00ce4966-25d5-403b-9bdd-e4260e4d0f6a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Aim Pose",
+                    "type": "PassThrough",
+                    "id": "c303f55b-ef97-49da-845f-2b36cd963624",
+                    "expectedControlType": "Pose",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c8336ba6-9b97-43dc-96ae-3519a8a2224f",
+                    "path": "<XRController>{RightHand}/{trigger}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fa368ffe-f6d1-4a6e-90f4-a8441adf8ed9",
+                    "path": "<XRController>{RightHand}/{primaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cdb1ba36-76f4-4830-b75e-b52b6ddade98",
+                    "path": "<XRController>{RightHand}/{primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Primary2DAxis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6f409509-a709-400e-abc8-0b2705267aa4",
+                    "path": "<XRController>{RightHand}/{grip}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5adece36-849a-43e5-8e1c-e5fd48ff3ea8",
+                    "path": "<XRController>{RightHand}/{secondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SecondaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "95ff7103-0cc0-4cc6-a89c-96c9f12fc32f",
+                    "path": "<XRController>{RightHand}/pointer",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim Pose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "T_XRTracker0",
+            "id": "15c52234-f8d7-4c0e-9a59-1d0a4a39af7d",
+            "actions": [
+                {
+                    "name": "TrackerPose",
+                    "type": "PassThrough",
+                    "id": "529c3e34-7dec-4b1a-b209-ef527f156f08",
+                    "expectedControlType": "Pose",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TrackerIsTracked",
+                    "type": "Value",
+                    "id": "b2fb2443-6d96-4ddf-8fc3-b5af675f6f28",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "46bb407e-3b69-4c59-8d9a-c54710e48f22",
+                    "path": "<ViveXRTracker>{Ultimate Tracker 0}/devicePose",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackerPose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7738b5c7-b5d7-4c02-a79c-38a71a12932f",
+                    "path": "<ViveXRTracker>{Ultimate Tracker 0}/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackerIsTracked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "T_XRTracker1",
+            "id": "237fb2f6-ee56-47e5-887d-bf386a6dc794",
+            "actions": [
+                {
+                    "name": "TrackerPose",
+                    "type": "PassThrough",
+                    "id": "f55f9577-75b8-4d69-a66d-7aacf419204e",
+                    "expectedControlType": "Pose",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TrackerIsTracked",
+                    "type": "Value",
+                    "id": "8b3db556-1090-4246-b2bb-93349c0920fc",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "898967a0-3bad-4c89-80a7-2ec46db67f7a",
+                    "path": "<ViveXRTracker>{Ultimate Tracker 1}/devicePose",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackerPose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a3ec3f40-39d0-41b9-98c6-04a954daa002",
+                    "path": "<ViveXRTracker>{Ultimate Tracker 1}/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackerIsTracked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "T_XRTracker2",
+            "id": "923c3fb7-90ae-4c6d-8862-074839c18c64",
+            "actions": [
+                {
+                    "name": "TrackerPose",
+                    "type": "PassThrough",
+                    "id": "57a019e5-e5ec-421e-a71c-c5f61f542051",
+                    "expectedControlType": "Pose",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TrackerIsTracked",
+                    "type": "Value",
+                    "id": "9b74359e-b907-4a2e-b211-5d4a5fa52a78",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8317a2cb-d7f8-4a7c-8b92-8c466fe302b5",
+                    "path": "<ViveXRTracker>{Ultimate Tracker 2}/devicePose",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackerPose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f11977f1-d853-4f69-8cb9-3ebbdface04d",
+                    "path": "<ViveXRTracker>{Ultimate Tracker 2}/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackerIsTracked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "T_XRTracker3",
+            "id": "5236dc8a-2215-4759-ad3e-6c8f66b39afc",
+            "actions": [
+                {
+                    "name": "TrackerPose",
+                    "type": "PassThrough",
+                    "id": "dfa0dc20-8bb5-48b3-ac5f-97e88d9dec12",
+                    "expectedControlType": "Pose",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TrackerIsTracked",
+                    "type": "Value",
+                    "id": "37172e46-b226-474a-bc28-2ff449eabf48",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e134e20b-304f-4629-96f1-5b3b5f6a4c61",
+                    "path": "<ViveXRTracker>{Ultimate Tracker 3}/devicePose",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackerPose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fc1b0229-5a6b-419a-a7af-959e7f0e709e",
+                    "path": "<ViveXRTracker>{Ultimate Tracker 3}/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackerIsTracked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "T_XRTracker4",
+            "id": "acea876a-3db4-458b-89f9-8c4e57714373",
+            "actions": [
+                {
+                    "name": "TrackerPose",
+                    "type": "PassThrough",
+                    "id": "abb4c9c1-c105-4a1d-94de-6542212000a8",
+                    "expectedControlType": "Pose",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TrackerIsTracked",
+                    "type": "Value",
+                    "id": "bc632ff1-97a0-42fb-a2a6-b12aecc697bb",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9b99591e-8d7d-4cba-8210-7e66b4d04920",
+                    "path": "<ViveXRTracker>{Ultimate Tracker 4}/devicePose",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackerPose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4cc3339-fc44-4714-8741-69879a6e1c26",
+                    "path": "<ViveXRTracker>{Ultimate Tracker 4}/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackerIsTracked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

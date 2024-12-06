@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6a13b7e78169d9498f361a2372ab94b, type: 3}
+  m_Name: SceneList
+  m_EditorClassIdentifier: 
+  Scenes:
+    MainScene: {fileID: 102900000, guid: d2680fbdb4e70934e9de43992b8f4529, type: 3}
+    EnvironmentScene: {fileID: 102900000, guid: 04e4d2a28c87e0742990a6fd768b482a,
+      type: 3}
+    SpectatorScene: {fileID: 102900000, guid: 7803efd7f8840c54fbc5cbaf6797ff6c, type: 3}
+    AvatarScene: {fileID: 102900000, guid: 051ca1403b64215418a23b5cac8b5a4b, type: 3}
+    BottleScene: {fileID: 102900000, guid: 806757c806be1f5418f928472f348184, type: 3}
+    RobotAssistantScene: {fileID: 102900000, guid: bdce32625622d744ab359413bcd24028,
+      type: 3}
+    KeyboardScene: {fileID: 102900000, guid: 749907f8c7d83f84a91a64e20e83e823, type: 3}
+    Object3DScene: {fileID: 102900000, guid: c78f813b7dfc2a440932c36de5308e12, type: 3}
+    FacialTrackingScene: {fileID: 102900000, guid: f7e8cd274790a08489a7425004f730ac,
+      type: 3}
+    TrackerScene: {fileID: 102900000, guid: de88e12e09b99954a93b93746c0f407c, type: 3}
+    PMainSceneName: Main
+    PEnvironmentSceneName: VRSS_Environment
+    PSpectatorSceneName: Spectator
+    PAvatarSceneName: JelbeeAvatar
+    PBottleSceneName: ThrowBottles
+    PRobotAssistantSceneName: RobotAssistant
+    PKeyboardSceneName: Keyboard
+    PObject3DSceneName: 3DObjectManipulation
+    PFacialTrackingSceneName: FaceTracking_Bubble
+    PTrackerSceneName: Tracker
+    PDemo3DSPSceneName: v130_demo

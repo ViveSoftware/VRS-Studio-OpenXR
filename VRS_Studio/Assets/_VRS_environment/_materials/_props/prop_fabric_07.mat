@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: prop_fabric_07
+  m_Shader: {fileID: 4800000, guid: 2709d2bacb6cabb409a53c36fd5de450, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DetailTex:
+        m_Texture: {fileID: 2800000, guid: fc1129ffa36a216499b9fd581dbda6d4, type: 3}
+        m_Scale: {x: 24, y: 24}
+        m_Offset: {x: 0, y: 0}
+    - _colorAtlasTex:
+        m_Texture: {fileID: 2800000, guid: 7a9ca5e4edb76894680f422bd40a024a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DetailStrength: 0.586
+    - _detailTiling: 190
+    m_Colors: []

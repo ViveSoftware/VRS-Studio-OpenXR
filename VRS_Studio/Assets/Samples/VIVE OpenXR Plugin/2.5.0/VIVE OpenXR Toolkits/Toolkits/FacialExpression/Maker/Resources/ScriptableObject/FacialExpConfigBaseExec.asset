@@ -1,0 +1,311 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c779b9cfd67cd4dbb98f7c7fe860b8, type: 3}
+  m_Name: FacialExpConfigBaseExec
+  m_EditorClassIdentifier: 
+  nodes:
+  - nodeCustomName: OriginalExpression
+    weight: 100
+    GUID: 276fe2a8-d0f9-44fe-ae28-b37ab1721d76
+    position:
+      serializedVersion: 2
+      x: 10
+      y: 20
+      width: 100
+      height: 100
+    graph: {fileID: 11400000, guid: a32016b13edec104c89620400a861215, type: 2}
+  - nodeCustomName: Fcl_BRW_Angry
+    weight: 100
+    GUID: 47dd86c0-1b40-418b-9d89-cf0334945bde
+    position:
+      serializedVersion: 2
+      x: 533
+      y: 235
+      width: 240
+      height: 65
+    graph: {fileID: 11400000, guid: a32016b13edec104c89620400a861215, type: 2}
+  - nodeCustomName: Fcl_BRW_Joy
+    weight: 100
+    GUID: 564d2dc0-0f56-4010-9ac9-e425189086be
+    position:
+      serializedVersion: 2
+      x: 533
+      y: 297.5
+      width: 240
+      height: 65
+    graph: {fileID: 11400000, guid: a32016b13edec104c89620400a861215, type: 2}
+  - nodeCustomName: Fcl_BRW_Surprised
+    weight: 100
+    GUID: 0fb86745-519a-4791-bb65-22c49cdf91c4
+    position:
+      serializedVersion: 2
+      x: 533
+      y: 167.5
+      width: 240
+      height: 65
+    graph: {fileID: 11400000, guid: a32016b13edec104c89620400a861215, type: 2}
+  - nodeCustomName: Fcl_EYE_Close
+    weight: 100
+    GUID: 3c389fa1-bde0-4c16-875a-716e52205d91
+    position:
+      serializedVersion: 2
+      x: 820
+      y: 235
+      width: 240
+      height: 65
+    graph: {fileID: 11400000, guid: a32016b13edec104c89620400a861215, type: 2}
+  - nodeCustomName: Fcl_EYE_Close_R
+    weight: 100
+    GUID: 0898d824-9904-484d-8934-83fe2a3ad2a6
+    position:
+      serializedVersion: 2
+      x: 533
+      y: 97
+      width: 240
+      height: 65
+    graph: {fileID: 11400000, guid: a32016b13edec104c89620400a861215, type: 2}
+  - nodeCustomName: Fcl_EYE_Close_L
+    weight: 100
+    GUID: f6c0b7dc-4d94-4f04-86fa-d418c6d01bc0
+    position:
+      serializedVersion: 2
+      x: 533
+      y: 32.19998
+      width: 240
+      height: 65
+    graph: {fileID: 11400000, guid: a32016b13edec104c89620400a861215, type: 2}
+  - nodeCustomName: Fcl_MTH_Close
+    weight: 100
+    GUID: a4d0f290-6298-42aa-af02-111a00c695fd
+    position:
+      serializedVersion: 2
+      x: 819.72003
+      y: 660
+      width: 240
+      height: 65
+    graph: {fileID: 11400000, guid: a32016b13edec104c89620400a861215, type: 2}
+  - nodeCustomName: Fcl_MTH_Small
+    weight: 100
+    GUID: 9816d487-699d-40fb-90f1-fa6a7f43e49d
+    position:
+      serializedVersion: 2
+      x: 533
+      y: 570
+      width: 240
+      height: 65
+    graph: {fileID: 11400000, guid: a32016b13edec104c89620400a861215, type: 2}
+  - nodeCustomName: Fcl_MTH_Fun
+    weight: 50
+    GUID: 5cdd953e-d395-4ce2-b325-6b6c3f2afe2e
+    position:
+      serializedVersion: 2
+      x: 533
+      y: 642.5
+      width: 240
+      height: 65
+    graph: {fileID: 11400000, guid: a32016b13edec104c89620400a861215, type: 2}
+  - nodeCustomName: Fcl_MTH_Sorrow
+    weight: 25
+    GUID: a7888a95-53f3-4670-a8f1-fd8a6374cfaf
+    position:
+      serializedVersion: 2
+      x: 533
+      y: 725
+      width: 240
+      height: 65
+    graph: {fileID: 11400000, guid: a32016b13edec104c89620400a861215, type: 2}
+  - nodeCustomName: Fcl_MTH_A
+    weight: 100
+    GUID: a01cd377-34f3-402b-876b-b15b33643fc7
+    position:
+      serializedVersion: 2
+      x: 533
+      y: 500
+      width: 240
+      height: 65
+    graph: {fileID: 11400000, guid: a32016b13edec104c89620400a861215, type: 2}
+  - nodeCustomName: Fcl_BRW_Angry
+    weight: 50
+    GUID: f01ca008-b3b4-4e30-818c-c915bdf2c895
+    position:
+      serializedVersion: 2
+      x: 533
+      y: 365
+      width: 240
+      height: 65
+    graph: {fileID: 11400000, guid: a32016b13edec104c89620400a861215, type: 2}
+  - nodeCustomName: Fcl_BRW_Joy
+    weight: 50
+    GUID: c0996b1b-3f21-42f1-b76e-771871fa0fd0
+    position:
+      serializedVersion: 2
+      x: 533
+      y: 430
+      width: 240
+      height: 65
+    graph: {fileID: 11400000, guid: a32016b13edec104c89620400a861215, type: 2}
+  edges:
+  - GUID: 82faf640-200a-4885-8c38-682ab91f2129
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 0
+    blendShapeName: Fcl_EYE_Close_L
+    weightValue: 100
+  - GUID: 07897f2e-5fe7-47cc-b533-e240945c0866
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 2
+    blendShapeName: Fcl_EYE_Close_R
+    weightValue: 100
+  - GUID: c979fc27-5383-40e2-a212-46546793f306
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 1
+    blendShapeName: Fcl_BRW_Surprised
+    weightValue: 100
+  - GUID: 98af2c68-7606-448a-a3c4-f385a19de8c1
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 3
+    blendShapeName: Fcl_BRW_Surprised
+    weightValue: 100
+  - GUID: 860b5ab6-fa1a-4bf5-8bcd-37717780212c
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 4
+    blendShapeName: Fcl_BRW_Angry
+    weightValue: 100
+  - GUID: fba213a6-b41e-4b8c-939f-572df590c110
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 5
+    blendShapeName: Fcl_BRW_Angry
+    weightValue: 100
+  - GUID: 2b2292ad-cf5f-4467-8b9d-7a3847c2387d
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 6
+    blendShapeName: Fcl_BRW_Joy
+    weightValue: 100
+  - GUID: 7fbbd2c4-cc07-415f-b468-82c02355cc50
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 7
+    blendShapeName: Fcl_BRW_Joy
+    weightValue: 100
+  - GUID: dd328b75-e215-4cb4-8174-ab73590fcb06
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 9
+    blendShapeName: Fcl_EYE_Close
+    weightValue: 100
+  - GUID: 23514ba1-457d-4774-a050-6598f94b86d3
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 10
+    blendShapeName: Fcl_EYE_Close
+    weightValue: 100
+  - GUID: dd3b1b9f-438a-475f-80de-d75c9c342058
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 12
+    blendShapeName: Fcl_BRW_Angry
+    weightValue: 50
+  - GUID: 583baf71-5182-451f-a7be-f33b1fca0736
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 13
+    blendShapeName: Fcl_BRW_Angry
+    weightValue: 50
+  - GUID: 53a963e8-17d9-45ad-a20c-c903266f8827
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 12
+    blendShapeName: Fcl_BRW_Joy
+    weightValue: 50
+  - GUID: 2d08fbad-3ce6-49bb-bf56-bc06ecc0b6c1
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 13
+    blendShapeName: Fcl_BRW_Joy
+    weightValue: 50
+  - GUID: 9d189021-b80b-4866-a329-d0bbe2346e75
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 17
+    blendShapeName: Fcl_MTH_A
+    weightValue: 100
+  - GUID: d953e975-6757-438a-8237-cc0ff19cc630
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 25
+    blendShapeName: Fcl_MTH_Small
+    weightValue: 100
+  - GUID: 2a72f09b-6f0c-49e9-bba8-063a8b705841
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 26
+    blendShapeName: Fcl_MTH_Fun
+    weightValue: 50
+  - GUID: 7a86067f-dcf8-447d-8376-1a846969038f
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 27
+    blendShapeName: Fcl_MTH_Fun
+    weightValue: 50
+  - GUID: 8b421a21-1f6d-4e87-9715-009d31cc9ac6
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 28
+    blendShapeName: Fcl_MTH_Sorrow
+    weightValue: 25
+  - GUID: a9ca38a7-2767-487e-8c4c-821d76ed25cb
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 28
+    blendShapeName: Fcl_MTH_Close
+    weightValue: 100
+  - GUID: 1d4770cb-aa62-435b-9d6c-463825fcdc83
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 29
+    blendShapeName: Fcl_MTH_Sorrow
+    weightValue: 25
+  - GUID: c8cfc92a-da3f-4297-8861-a2a7bfe57ec2
+    inputFieldName: Custom
+    outputFieldName: OriginalExpression
+    inputPortIdentifier: 
+    outputPortIdentifier: 29
+    blendShapeName: Fcl_MTH_Close
+    weightValue: 100
+  position: {x: 110, y: 40, z: 0}

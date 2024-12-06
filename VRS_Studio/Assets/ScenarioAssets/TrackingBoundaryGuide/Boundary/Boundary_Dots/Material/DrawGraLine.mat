@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DrawGraLine
+  m_Shader: {fileID: 4800000, guid: ea21eeac65abf2b4f81ed4c7c9a70374, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TextureSample1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _sparkles1:
+        m_Texture: {fileID: 2800000, guid: a5c611e472ee6be479605add47f1506a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Opacity: 0.8
+    - _StartEnd: 1
+    - __dirty: 0
+    - _speed: 0.3
+    m_Colors:
+    - _ColorA: {r: 0.101960786, g: 0.7058824, b: 0.85882354, a: 0}
+    - _ColorB: {r: 0.07510632, g: 0.6486455, b: 1.3041189, a: 0}
+    - _Vector1: {r: 0.01, g: 0.01, b: 0, a: 0}
+    - _sparkle_color1: {r: 7.531835, g: 7.531835, b: 7.531835, a: 0}

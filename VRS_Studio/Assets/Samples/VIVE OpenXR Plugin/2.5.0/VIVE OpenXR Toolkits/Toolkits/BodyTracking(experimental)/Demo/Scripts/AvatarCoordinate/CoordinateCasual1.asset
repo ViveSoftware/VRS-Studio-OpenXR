@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f26b542fed38ea4f8e2f8ff9cdd0e7b, type: 3}
+  m_Name: CoordinateCasual1
+  m_EditorClassIdentifier: 
+  hip:
+    x: 0
+    y: 1
+    z: 2
+  leftThigh:
+    x: 3
+    y: 4
+    z: 2
+  leftLeg:
+    x: 0
+    y: 4
+    z: 5
+  leftAnkle:
+    x: 3
+    y: 2
+    z: 1
+  leftFoot:
+    x: 3
+    y: 2
+    z: 1
+  rightThigh:
+    x: 3
+    y: 4
+    z: 2
+  rightLeg:
+    x: 0
+    y: 4
+    z: 5
+  rightAnkle:
+    x: 3
+    y: 2
+    z: 1
+  rightFoot:
+    x: 3
+    y: 2
+    z: 1
+  waist:
+    x: 0
+    y: 1
+    z: 2
+  spineLower:
+    x: 0
+    y: 1
+    z: 2
+  spineMiddle:
+    x: 0
+    y: 1
+    z: 2
+  spineHigh:
+    x: 0
+    y: 1
+    z: 2
+  chest:
+    x: 0
+    y: 1
+    z: 2
+  neck:
+    x: 0
+    y: 1
+    z: 2
+  head:
+    x: 0
+    y: 1
+    z: 2
+  leftClavicle:
+    x: 1
+    y: 3
+    z: 2
+  leftScapula:
+    x: 0
+    y: 1
+    z: 2
+  leftUpperarm:
+    x: 5
+    y: 3
+    z: 1
+  leftForearm:
+    x: 4
+    y: 3
+    z: 5
+  leftHand:
+    x: 5
+    y: 3
+    z: 1
+  rightClavicle:
+    x: 4
+    y: 0
+    z: 2
+  rightScapula:
+    x: 0
+    y: 1
+    z: 2
+  rightUpperarm:
+    x: 2
+    y: 0
+    z: 1
+  rightForearm:
+    x: 1
+    y: 0
+    z: 5
+  rightHand:
+    x: 2
+    y: 0
+    z: 1

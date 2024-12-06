@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RightHand_IndexMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: RightHand_mesh
+    m_Weight: 1
+  - m_Path: WaveBone_1
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_0
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_2
+    m_Weight: 0
+  - m_Path: WaveBone_1/WaveBone_2/WaveBone_3
+    m_Weight: 0
+  - m_Path: WaveBone_1/WaveBone_2/WaveBone_3/WaveBone_4
+    m_Weight: 0
+  - m_Path: WaveBone_1/WaveBone_2/WaveBone_3/WaveBone_4/WaveBone_5
+    m_Weight: 0
+  - m_Path: WaveBone_1/WaveBone_6
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_6/WaveBone_7
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_6/WaveBone_7/WaveBone_8
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_6/WaveBone_7/WaveBone_8/WaveBone_9
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_6/WaveBone_7/WaveBone_8/WaveBone_9/WaveBone_10
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_11
+    m_Weight: 0
+  - m_Path: WaveBone_1/WaveBone_11/WaveBone_12
+    m_Weight: 0
+  - m_Path: WaveBone_1/WaveBone_11/WaveBone_12/WaveBone_13
+    m_Weight: 0
+  - m_Path: WaveBone_1/WaveBone_11/WaveBone_12/WaveBone_13/WaveBone_14
+    m_Weight: 0
+  - m_Path: WaveBone_1/WaveBone_11/WaveBone_12/WaveBone_13/WaveBone_14/WaveBone_15
+    m_Weight: 0
+  - m_Path: WaveBone_1/WaveBone_16
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_16/WaveBone_17
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_16/WaveBone_17/WaveBone_18
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_16/WaveBone_17/WaveBone_18/WaveBone_19
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_16/WaveBone_17/WaveBone_18/WaveBone_19/WaveBone_20
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_21
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_21/WaveBone_22
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_21/WaveBone_22/WaveBone_23
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_21/WaveBone_22/WaveBone_23/WaveBone_24
+    m_Weight: 1
+  - m_Path: WaveBone_1/WaveBone_21/WaveBone_22/WaveBone_23/WaveBone_24/WaveBone_25
+    m_Weight: 1

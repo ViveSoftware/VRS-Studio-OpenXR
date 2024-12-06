@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: ea21eeac65abf2b4f81ed4c7c9a70374
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _sparkles1: {fileID: 2800000, guid: a5c611e472ee6be479605add47f1506a, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
