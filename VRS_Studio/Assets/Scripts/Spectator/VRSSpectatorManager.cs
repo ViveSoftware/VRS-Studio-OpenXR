@@ -428,6 +428,15 @@ namespace VRSStudio.Spectator
                 if (text != null)
                     text.text = spectatorMode.ToString(); // + "Mode";
             }
+            Transform instructionPanel = RecursiveFind(previewBeforeHMD.transform, "InstructionPanel");
+            if (instructionPanel != null && spectatorMode == SpectatorMode.Tracker && !modeBehaviours[1].IsAvailable())
+            {
+                instructionPanel.gameObject.SetActive(true);
+            }
+            else
+            {
+                instructionPanel.gameObject.SetActive(false);
+            }
 
             // Not to move already shown preview pose
             if (isShowingPreviewBeforeHMD)
@@ -694,7 +703,8 @@ namespace VRSStudio.Spectator
                 if (requestedTrackerId.Count == 0 || !tracker.dev.isValid)
                 {
                     Log.d(TAG, "No Tracker");
-                    //disable = true;
+                    sh.SpectatorCamera.transform.SetPositionAndRotation(new Vector3(0f, 12.0f, 0f), Quaternion.identity);
+                    return;
                 }
 
                 var rig = manager.GetRig();

@@ -1284,6 +1284,11 @@ namespace HTC.ViveSoftware.ExpLab.HandInteractionDemo
         // TODO: Make LateUpdate a coroutine instead. Allows us to control the update to only be when the field is active.
         protected virtual void LateUpdate()
         {
+            if (!TouchScreenKeyboard.hideInput)
+            {
+                TouchScreenKeyboard.hideInput = true;
+            }
+
             // Only activate if we are not already activated.
             if (m_ShouldActivateNextUpdate)
             {
