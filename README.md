@@ -1,22 +1,19 @@
 # VRS Studio
-Copyright 2021-2024, HTC Corporation. All rights reserved.
+Copyright 2024, HTC Corporation. All rights reserved.
 
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#about">About</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
+        <li><a href="#built-with">Built With</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#settings-build-setup">Settings & Build Setup</a></li>
       </ul>
     </li>
+    <li><a href="#how-to-play">How to Play</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -26,11 +23,20 @@ Copyright 2021-2024, HTC Corporation. All rights reserved.
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About
 
-VRS Studio is a project created by HTC VIVE to demonstrate the features of VIVE Focus Vision and other devices, as well as to show a variety of different use cases of said capabilities by using our SDK and VIU toolkit.
+VRS Studio is a project developed by HTC VIVE to showcase the features on VIVE Focus Vision and other devices, while also demonstrating various use cases of these capabilities using our SDK and VIU toolkit. The Demo primarily includes the following experiences:
+    
+- Body Tracking
+- Faical Tracking
+- Spectator Camera
+- VIVE Ultimate Tracker
+- Realistic Hand Interaction
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Getting Started
 
 ### Built With
 
@@ -38,20 +44,15 @@ VRS Studio is a project created by HTC VIVE to demonstrate the features of VIVE 
 * [VIVE Input Utility for Unity](https://github.com/ViveSoftware/ViveInputUtility-Unity)
 * [DOTween](http://dotween.demigiant.com/)
 
-### Verified Devices
-
-* VIVE Focus 3、VIVE XR Elite、VIVE Focus Vision
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-## Getting Started
-
 ### Prerequisites
 
+- Vive XR Elite (ROM Version 1.0.999.738 above)
+- Vive Focus Vision (ROM Version 7.0.999.228 above)
 - Unity 2022.3.21f1 (With Android Build Support)
+- VIVE OpenXR Plugin 2.5.0 or newer
+- VIVE Input Utility 1.20.2 or newer
 
-### Instructions
+### Settings & Build Setup
 
  1. Clone the repo.
   ```sh
@@ -72,6 +73,58 @@ VRS Studio is a project created by HTC VIVE to demonstrate the features of VIVE 
         - Allow capture panorama
      - VIVE XR Support
 5. To build the APK, go to the menu bar and select VRS_Studio > Build > Do Build. The APK will be located in the "builds" folder within the project directory.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- HOW TO PLAY -->
+## How to Play
+If you are launching the app for the first time, there is a tutorial will guide you through the all features. If not, you can refer to the gameplay steps below to fully experience all features.
+
+Below is an introduction to each area’s features, starting clockwise from the Computer Area:
+1. Computer Area:
+
+    <img src="images/ComputerArea.png" alt="ComputerArea" width="30%">
+
+	- Use your hand or controller to type on the keyboard and input text.
+	- Use your hand or controller to grab and move the keyboard.
+	- When grabbing the keyboard with both hands or both controllers simultaneously, you can resize the keyboard.
+
+2. Mirror Area:
+
+    <img src="images/LipTracking.gif" alt="LipTracking" width="30%">
+
+	- Enable the facial-tracking and eye-tracking features and bubbles will continuously appear.
+	- Staring at a bubble with your eyes will make it grow and eventually burst.
+	- Hold your mouth in an "O" shape to blow bubbles from your mouth position.
+
+3. Recording Area:
+
+    <img src="images/SpecCam.gif" alt="SpecCam" width="30%">
+
+	- Turn on the recording feature. Use the left controller to switch between different recording perspectives.
+	- Press the Y button on the left controller to take 360-degree photos.
+
+4. Sofa Area:
+
+    <img src="images/SofaArea.png" alt="SofaArea" width="30%">
+
+	- Use your hand or controller to grab a plastic bottle.
+	- Throw the bottle into the trash can to hear a notification sound.
+
+5. Exhibition Area:
+
+    <img src="images/ExhibitionArea.png" alt="ExhibitionArea" width="30%">
+
+	- Use your hand or controller to grab any object.
+	- When you release the camouflage airplane, 3D spatial sound effects will play around you.
+
+6. Avatar Area:
+
+    <img src="images/BodyTracking.gif" alt="BodyTracking" width="30%">
+
+	- Press the X button on the left controller and the A button on the right controller to enable the calibration feature.
+	- Follow the pose of the Avatar until the calibration is complete.
+	- Once calibration is complete, the Avatar will follow the movements of your HMD and controllers or hands.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
